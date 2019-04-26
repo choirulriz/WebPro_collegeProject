@@ -1,29 +1,88 @@
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
+.kategori {
+	position: relative;
 }
 
-li {
-	float: right;
-	direction: rtl;
-
+.subkategori {
+	position: absolute;
+	margin-top: -10px;
+	left: 50%;
+	margin-left: -15px;
 }
 
-li a {
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
+.subkategoriNama {
+	position: relative;
+	margin-top: 20px;
+}
+
+.kotakTengah {
+	border: 2px solid black;
+	height: 45px;
+	width: 250px;
+	padding-top: 10px;
+	padding-left: 45px
+}
+
+a {
 	text-decoration: none;
+	color: black;
 }
 
-li a:hover {
-	background-color: #111;
+/*footer*/
+
+.d-sm-flex a {
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	line-height: 2.5;
+	font-weight: 300;
 }
 
-.active {
-	background-color: red;
+/* footer pusat bantuan*/
+.icon {
+	width: 14px;
+	margin-right: 5px;
+
+}
+
+
+.d-sm-flex .pusatbantuan {
+	margin-bottom: 10px;
+
+}
+
+.d-sm-flex p {
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	line-height: 1;
+	font-weight: 300;
+}
+
+.d-sm-flex a:hover {
+	color: red;
+	transition: 0.5s;
+}
+
+
+.d-sm-flex1 .container-fluid img {
+	margin-right: 800px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.d-sm-flex1 {
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 300;
+}
+
+#formLogin {
+	left: 100px;
+}
+
+.tubuh {
+	background-image: url('img/login.jpg');
 }

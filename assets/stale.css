@@ -1,0 +1,363 @@
+.hadHeader{
+	width:229px;
+	height:50px;
+	background-color: #da544f;
+	color:white;
+	text-align: center;
+	padding: 10px 10px 10px 0;
+	border-radius: 0 0 12px 12px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+.hadHeader a{
+	color: white;
+}
+
+.hadHeader a :hover{
+	text-decoration: underline;
+}
+
+/*footer*/
+
+.d-sm-flex a{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	line-height: 2.5;
+	font-weight: 300;
+}
+
+/* footer pusat bantuan*/
+.d-sm-flex img{
+	width: 14px;
+	margin-right: 5px;
+
+}
+
+
+.d-sm-flex .pusatbantuan{
+	margin-bottom: 10px;
+
+}
+
+.d-sm-flex p{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	line-height: 1;
+	font-weight: 300;
+}
+
+.d-sm-flex a:hover{
+	color: red;
+    transition: 0.5s;
+ }
+
+
+.d-sm-flex1 .container-fluid img{
+	margin-right: 800px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.d-sm-flex1{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	line-height: 1;
+	font-weight: 300;
+}
+
+/*Tentang Kami*/
+.jumbotron{
+	height: 320px;
+	opacity: 0.9;
+	background-size: cover;
+	background-position: 0 -300px;
+	background-image: url('../../img/sepatu.jpg')
+}
+
+.jumbotron h1, .jumbotron p{
+	text-align: center;
+	color: #fff;	
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+hr{
+	width: 50px;
+	height: 15px;
+	border-top: 3px solid #da544f;	
+	margin-bottom: -5px;
+	margin-left: 80px;
+}
+
+.handmadenesia img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 300px;
+  	height: 62px;
+  	margin-bottom: 50px;
+  	margin-top: 20px;
+}
+
+.handmadenesia p{
+	font-size: 14px;
+	margin-left: 150px;
+	margin-right: 60px;
+	font-weight: 300;
+}
+
+.filosofi h5{
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 80px;
+}
+
+.filosofi1 h5{
+	font-size: 14px;
+	font-weight: 350;
+	margin-left: 80px;
+	margin-top: 30px;
+	color: #da544f;
+}
+
+.filosofi1 p{
+	font-size: 14px;
+	font-weight: 300;
+	margin-left: 80px;
+}
+
+.filosofi2 h5{
+	font-size: 14px;
+	font-weight: 350;
+	margin-left: 80px;
+	margin-top: 30px;
+	color: #da544f;
+}
+
+.filosofi2 p{
+	font-size: 14px;
+	font-weight: 300;
+	margin-left: 80px;
+}
+
+.filosofi3 h5{
+	font-size: 14px;
+	font-weight: 350;
+	margin-left: 80px;
+	margin-top: 30px;
+	color: #da544f;
+}
+
+.filosofi3 p{
+	font-size: 14px;
+	font-weight: 300;
+	margin-left: 80px;
+}
+
+.lowongan{
+	height: 320px;
+	opacity: 0.9;
+	background-size: cover;
+	background-position: 0 -300px;
+	background-color: #f7f9f9;
+
+}
+
+.lowongan h5{
+	margin-top: 100px;
+	font-size: 27px;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+}
+
+.lowongan button{
+	border-radius: 30px;
+	margin-top: 10px;
+	font-size: 14px;
+	width: 188px;
+	height: 33px;
+	text-align: center;
+}
+
+.kantor h5{
+	margin-top: 100px;
+	font-size: 16px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.kantor img{
+	width: 8%;
+	height: 8%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 20px;
+
+}
+
+.kantor h6{
+	font-size: 14px;
+	font-weight: 350;
+	text-align: center;	
+	margin-bottom: 15px;
+}
+
+.kantor p{
+	font-size: 14px;
+	font-weight: 300;
+	text-align: center;	
+}
+
+
+.jumbotronKarir{
+	height: 320px;
+	opacity: 0.9;
+	background-size: cover;
+	background-position: 0 -300px;
+	background-image: url('../../img/career.jpg')
+}
+
+.jumbotronKarir h1{
+	display: block;
+	text-align: center;
+	color: #fff;	
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	font-size: 56px;
+}
+
+
+.jumbotronKarir p{
+	text-align: center;
+	color: #fff;	
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	font-size: 20px;
+}
+
+.team{
+	height: 482px;
+	opacity: 0.9;
+	background-size: cover;
+	background-position: 0 -300px;
+	background-color: #f7f9f9;
+}
+
+.team h5{
+	margin-top: 150px;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+.team img{
+	margin-top: 30px;
+}
+
+.handmadecore h5{
+	margin: 20px;
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	color: #595959;
+}
+
+.container-fluid1 h6{
+	width:275px;
+	height:40px;
+	background-color: #f4f4f4;
+	color: #da544f;
+	text-align: left;
+	border-radius: 5px;
+	padding-top: 8px;
+	padding-left: 25px;
+	border-left: 7px;
+	border-left-color: #da544f; 
+	margin-left: 60px;
+
+}
+
+.container-fluid1 h6 :hover{
+	color: #595959;
+	cursor: hand;
+}
+
+.container-fluid1 h5{
+	font-size: 18px;
+	font-weight: 300;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	color: #595959;
+}
+
+.container-fluid1 p{
+	font-size: 14px;
+	font-weight: 300;
+	margin-left: 40px;
+	color: #595959;
+}
+
+.container-fluid2 img{
+	width: 270px;
+	height: 276px;
+}
+.container-fluid2{
+	margin-left: 140px;
+	margin-right: 100px;
+}
+
+.container-fluid2 p{
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 21px;
+	margin-right: 40px;
+}
+
+
+.p-1 img{
+	width: 270px;
+	height: 276px;
+}
+
+.p-1 h5{
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 21px;
+	margin-right: 60px;
+}
+
+
+.jumbotronKebijakan{
+	height: 320px;
+	opacity: 0.9;
+	background-size: cover;
+	background-position: 0 -300px;
+	background-image: url('../../img/policy.jpg')
+}
+
+.jumbotronKebijakan h1{
+	display: block;
+	text-align: center;
+	color: #fff;	
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	font-size: 56px;
+}
+
+
+.flexKebijakan{
+	font-size: 14px;
+	line-height: 2;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.flexKebijakan h7{
+	font-size: 16px;
+	line-height: 2;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-weight: 300;
+}

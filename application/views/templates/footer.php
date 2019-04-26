@@ -2,32 +2,33 @@
   <div class="d-sm-flex justify-content-around">
     <div class="d-sm-flex flex-column">
       <div>Handmadenesia</div>
-      <a href="#">Tentang Kami</a>
-      <a href="#">Karir</a>
+      <a href="<?= base_url("Tentangkami"); ?>">Tentang Kami</a>
+      <a href="<?= base_url("karir"); ?>">Karir</a>
       <a href="#">Blog</a>
-      <a href="#">Kebijakan</a>
+      <a href="<?= base_url("kebijakan"); ?>">Kebijakan</a>
       <a href="#">Contact Us</a>
     </div>
 
     <div class="d-sm-flex flex-column">
       <div>Belanja</div>
-      <a href="#">Belanja di Handmadenesia</a>
-      <a href="#">Pembayaran</a>
+      <a href="<?= base_url("Belanja"); ?>">Belanja di Handmadenesia</a>
+      <a href="<?= base_url("Pembayaran"); ?>">Pembayaran</a>
     </div>
 
     <div class="d-sm-flex flex-column">
       <div>Jualan</div>
-      <a href="#">Jualan di Handmadenesia</a>
-      <a href="#">Panduan Berjualan</a>
+      <a href="<?= base_url("Jualan"); ?>">Jualan di Handmadenesia</a>
+      <a href="<?= base_url("Panduan"); ?>">Panduan Berjualan</a>
     </div>
 
     <div class="d-sm-flex flex-column">
-      <div>Pusat Bantuan</div>
-      <a href="#">Facebook</a>
-      <a href="#">Instagram</a>
-      <a href="#">Twitter</a>
-      <a href="#">+62 8123456789</a>
-      <a href="#">Support@handmadenesia</a>
+      <div class="pusatbantuan">Pusat Bantuan</div>
+      <a href="https://www.facebook.com/handmadenesia"><img class="icon" src="<?= base_url(); ?>assets/img/facebook.png">Facebook</a>
+      <a href="https://www.instagram.com/handmadenesia/"><img class="icon" src="<?= base_url(); ?>assets/img/instagram.png">Instagram</a>
+      <a href="https://twitter.com/handmadenesia"><img class="icon" src="<?= base_url(); ?>assets/img/twitter.png">Twitter</a>
+      <a href="https://api.whatsapp.com/send?phone=6281918880008&text=Halo%20Admin%20Handmadenesia"><img class="icon" src="<?= base_url(); ?>assets/img/phone.png">+628123456789</a>
+      <a href="support@handmadenesia.com"><img class="icon" src="<?= base_url(); ?>assets/img/mail.png">support@handmadenesia</a>
+
     </div>
 
 
@@ -35,9 +36,9 @@
   <hr>
   <div class="d-sm-flex justify-content-between">
     <div>
-      <a class="navbar-brand" href="#">
-        <img src="assets/img/Handmadenesia.svg" width="auto" height="40px" alt="">
-      </a>
+
+      <img class="bawah" src="<?= base_url(); ?>assets/img/Handmadenesia.svg" height="40px" alt="">
+
     </div>
 
     <div>
